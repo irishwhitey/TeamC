@@ -3,7 +3,7 @@ phases:
   build:
     commands:
     - npm install    
-    - aws cloudformation package --template-file app-sam.yaml --s3-bucket ccl-training --output-template-file app-output_sam.yaml    
+    - npm run deploy    
 artifacts:
   files:
     - app-output_sam.yaml   
