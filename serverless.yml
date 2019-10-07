@@ -65,7 +65,7 @@ functions:
 #    Check the event documentation for details
     events:
       - http:
-          path: /dev/
+          path: /
           method: post
 #      - websocket: $connect
 #      - s3: ${env:BUCKET}
