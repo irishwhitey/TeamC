@@ -5,8 +5,7 @@ module.exports.calculate = async event => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        result: '6',
-        fred: event        
+        result: '24'        
       },
       null,
       2
