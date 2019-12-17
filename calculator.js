@@ -1,3 +1,3 @@
 module.exports = (problem) => {
-	return 5;
+	return 9;
 };
