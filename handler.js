@@ -1,13 +1,14 @@
 'use strict';
-//var calculator = require('./calculator.js') 
+var calculator = require('./calculator.js') 
 
 module.exports.calculate = async event => {
 console.log(event);
+console.log(event.body);
   return {
     statusCode: 200,
     body: JSON.stringify(
       {
-        result: 24        
+        result: calculator.calculate(JSON.parse(event.body).problem)        
       },
       null,
       2
