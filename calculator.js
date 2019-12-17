@@ -1,3 +1,5 @@
-module.exports = (problem) => {
-	return 9;
+module.exports = {
+	calculate : (problem) => {
+		return 9;
+	}
 };
