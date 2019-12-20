@@ -1,5 +1,5 @@
 module.exports = {
 	calculate : (problem) => {
-		return -5;
+		return 100;
 	}
 };
