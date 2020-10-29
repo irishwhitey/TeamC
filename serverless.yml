@@ -22,7 +22,7 @@ org: martinwhite
 
 provider:
   name: aws
-  runtime: nodejs10.x
+  runtime: nodejs12.x
 
 # you can overwrite defaults here
 #  stage: dev
