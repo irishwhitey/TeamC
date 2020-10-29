@@ -6,3 +6,6 @@ phases:
     #- npm install -g serverless
     #- npm install    
     #- serverless deploy
+artifacts:
+  files:
+    - app-output_sam.yaml   
