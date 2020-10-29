@@ -1,6 +1,5 @@
 const calculator = require('../calculator.js');
 
-test('return 8', () => {
-
-  expect(calculator.calculate("3 + 2")).toBe(5);
+test('return 5', () => {
+  expect(calculator.calculate("2 + 3")).toBe(5);
 });
