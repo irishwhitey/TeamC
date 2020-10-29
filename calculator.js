@@ -7,6 +7,11 @@ function multiplyNumbers(a, b)
 	return a * b;
 }
 
+function divideNumbers(a, b)
+{
+	return a / b;
+}
+
 module.exports = {
 	calculate : (problem) => {
 		var split = problem.split(" ");
@@ -22,6 +27,8 @@ module.exports = {
 				return sumNumbers(a, b);
 			case '*':
 				return multiplyNumbers(a, b);
+			case '/':
+				return divideNumbers(a,b);
 		}
 	}
 };
