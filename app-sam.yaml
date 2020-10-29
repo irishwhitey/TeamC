@@ -6,7 +6,7 @@ Resources:
   Function:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: TeamCFunction      
+      FunctionName: TeamCFunctionNew    
       Handler: handler.calculate
       Runtime: nodejs12.x
       Timeout: 30
