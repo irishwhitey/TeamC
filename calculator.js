@@ -12,6 +12,11 @@ function divideNumbers(a, b)
 	return a / b;
 }
 
+function calculatePower(a, b)
+{
+	return Math.pow(a, b);
+}
+
 module.exports = {
 	calculate : (problem) => {
 		var split = problem.split(" ");
@@ -29,6 +34,8 @@ module.exports = {
 				return multiplyNumbers(a, b);
 			case '/':
 				return divideNumbers(a,b);
+			case '^':
+				return calculatePower(a,b);
 		}
 	}
 };
